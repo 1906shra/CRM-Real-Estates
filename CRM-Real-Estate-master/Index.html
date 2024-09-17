@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real Estate CRM</h1>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#properties">Properties</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <div class="stats">
+                <div class="stat">
+                    <h3>Total Properties</h3>
+                    <p>120</p>
+                </div>
+                <div class="stat">
+                    <h3>New Leads</h3>
+                    <p>45</p>
+                </div>
+                <div class="stat">
+                    <h3>Closed Deals</h3>
+                    <p>30</p>
+                </div>
+            </div>
+        </section>
+        <section id="properties">
+            <h2>Properties</h2>
+            <div class="property-list">
+                <div class="property">
+                    <h3>123 Main St</h3>
+                    <p>3 Bed, 2 Bath</p>
+                    <p>$350,000</p>
+                </div>
+                <div class="property">
+                    <h3>456 Oak Ave</h3>
+                    <p>4 Bed, 3 Bath</p>
+                    <p>$450,000</p>
+                </div>
+                <!-- Add more properties as needed -->
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Real Estate CRM</p>
+    </footer>
+</body>
+</html>
